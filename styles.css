@@ -1,0 +1,98 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px; /*per eliminare il margine default di chrome*/
+    margin-bottom: 15px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.FotoCibo {
+    width: 40px;
+    margin-left: 230px;
+    /* display: block;
+    margin-left: auto;      Oppure cosi per metterlo al centro
+    margin-right: auto; */
+}
+.FotoBevande {
+    width: 40px;
+    margin-left: 230px;
+}
+p {
+    text-align: center;
+}
+/*
+body {
+     background-color: rgb(255, 153, 0); Questo fa tutta la pagina di un colore
+} 
+*/
+body {
+    background-image: url(Foto/RistSfondo.png);
+    background-size: cover;
+    font-family: sans-serif; /*font*/
+    padding: 20px;
+}
+h1, h2 {
+    font-family: cursive, serif; /*serif si mette dopo la virgola per fare in modo che se CURSIVE non fosse disponibile diventerebbe SERIF*/
+}
+.est {
+    font-style: italic;
+}
+.menu {
+    width: 80%; /* Questo lo fara 80% lungo, si puo fare anche in px */
+    background-color: rgb(225, 153, 0);
+    margin-left: auto; /* Per metterlo al centro, quello sotto pure */
+    margin-right: auto;
+    padding-left: 20px; /*per mettere un po di spazio dai margini alle parole*/
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 20px; /*oppure se si vuole fare tutto uguale basta mettere solo "padding"*/
+    max-width: 500px; /*Per la larghezza massima del menu*/
+}
+.cibo, .bevande {
+    text-align: left;
+    width: 75%; /* Per avere lo spazio giusto tra cibo e prezzo */
+}
+.prezzo {
+    text-align: right;
+    width: 25%;
+}
+.alimento p {
+    display: inline-block; /*per mettere i due "p" su una stessa linea*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.via {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+hr {
+    height: 1px;
+    background-color: brown;
+    border-color: brown;
+}
+.linea-giu {
+    margin-top: 25px;
+}
+.divisione {
+    margin-top: 35px;
+    width: 75%;
+    height: 1px;
+    background-color: grey;
+    border-color: grey;
+}
+a { /*link sotto*/
+    color: purple;
+}
+a:visited { /*dopo aver cliccato il link, il link sara nero*/
+    color: black; 
+}
+a:hover {  /*quando ci passi con il cursore*/
+    color: blue; 
+}
+a:active { /*mentre lo clicchi*/
+    color: pink;
+}
